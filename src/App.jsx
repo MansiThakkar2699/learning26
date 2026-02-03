@@ -14,28 +14,28 @@ import { MapDemo7 } from './components/MapDemo7';
 import { MapDemo8 } from './components/MapDemo8';
 import { MapDemo9 } from './components/MapDemo9';
 import { MapDemo10 } from './components/MapDemo10';
+import { Route, Routes } from 'react-router-dom';
+import { NetflixHome } from './components/NetflixHome';
+import { NetflixMovies } from './components/NetflixMovies';
+import { NetflixShows } from './components/NetflixShows';
+import { Navbar } from './components/Navbar';
+import { NetflixTV } from './components/NetflixTV';
+import { NetflixSports } from './components/NetflixSports';
+import { NetflixCategory } from './components/NetflixCategory';
 //import './App.css'
 
 function App() {
   return (
     <div>
-      <HeaderComponent></HeaderComponent>
-      {/* <MapDemo1></MapDemo1>
-      <MapDemo2></MapDemo2> */}
-      {/* <MapDemo3></MapDemo3> */}
-      {/* <MapDemo4></MapDemo4> */}
-      {/* <MapDemo5></MapDemo5> */}
-      {/* <MapDemo6></MapDemo6> */}
-      {/* <MapDemo7></MapDemo7> */}
-      {/* <MapDemo8></MapDemo8> */}
-      {/* <MapDemo9></MapDemo9> */}
-      <MapDemo10></MapDemo10>
-      <FooterComponent></FooterComponent>
-      {/* <h1>ALL TAG MUST HAVE CLOSING TAG</h1> <br></br> */}
-      {/* <h4>AT A TIME WE CAN RETURN ONLY 1 TAG....</h4>
-      <h4>
-        whatever written inside return statment will be display on browser
-      </h4> */}
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/netflixhome" element={<NetflixHome/>}></Route>
+        <Route path="/netflixmovies" element={<NetflixMovies/>}></Route>
+        <Route path="/netflixshows" element={<NetflixShows/>}></Route>
+        <Route path="/netflixtv" element={<NetflixTV/>}></Route>
+        <Route path="/netflixsports" element={<NetflixSports/>}></Route>
+        <Route path="/netflixcategory" element={<NetflixCategory/>}></Route>
+      </Routes>
     </div>
   )
 }
