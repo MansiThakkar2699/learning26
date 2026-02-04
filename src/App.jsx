@@ -23,6 +23,10 @@ import { NetflixTV } from './components/NetflixTV';
 import { NetflixSports } from './components/NetflixSports';
 import { NetflixCategory } from './components/NetflixCategory';
 import { HomeComponent } from './components/HomeComponent';
+import { ErrorNotFound } from './components/ErrorNotFound';
+import { Watch } from './components/Watch';
+import { Team } from './components/Team';
+import { TeamDetail } from './components/TeamDetail';
 //import './App.css'
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
         <Route path="/netflixsports" element={<NetflixSports/>}></Route>
         <Route path="/netflixcategory" element={<NetflixCategory/>}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
+        <Route path="/watch/:name" element={<Watch/>}></Route>
+        <Route path="/team" element={<Team/>}></Route>
+        <Route path="/teamdetail/:name" element={<TeamDetail/>}></Route>
+        <Route path="/*" element={<ErrorNotFound/>}></Route>
       </Routes>
     </div>
   )

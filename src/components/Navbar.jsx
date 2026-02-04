@@ -52,6 +52,11 @@ export const Navbar = () => {
                 Category
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/team">
+                Team
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
