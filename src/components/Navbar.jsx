@@ -27,46 +27,46 @@ export const Navbar = () => {
                 Netflix Home
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixshows">
                 Shows
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixmovies">
                 Movies
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixtv">
                 TV
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixsports">
                 Sports
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixcategory">
                 Category
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/team">
                 Team
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/fundemo1">
                 Fundemo1
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/usestatedemo1">
                 usestatedemo1
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/usestatedemo2">
                 usestatedemo2
@@ -92,7 +92,32 @@ export const Navbar = () => {
                 InputDemo2
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/inputdemo3">
+                InputDemo3
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/formdemo1">
+                FormDemo1
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/formdemo2">
+                FormDemo2
+              </Link>
+            </li>
              <li className="nav-item">
+              <Link className="nav-link" to="/formdemo3">
+                FormDemo3
+              </Link>
+            </li>
+             <li className="nav-item">
+              <Link className="nav-link" to="/formdemo4">
+                FormDemo4
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/students">
                 Students
               </Link>
