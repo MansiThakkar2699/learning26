@@ -97,7 +97,7 @@ export const Navbar = () => {
                 InputDemo3
               </Link>
             </li> */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/formdemo1">
                 FormDemo1
               </Link>
@@ -126,7 +126,7 @@ export const Navbar = () => {
               <Link className="nav-link" to="/formdemo6">
                 FormDemo6
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/formdemo7">
                 FormDemo7
@@ -150,6 +150,21 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/formdemo11">
                 FormDemo11
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/apidemo1">
+                ApiDemo1
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/apidemo2">
+                ApiDemo2
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/apidemo3">
+                ApiDemo3
               </Link>
             </li>
             {/* <li className="nav-item">

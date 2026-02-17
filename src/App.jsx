@@ -47,6 +47,9 @@ import { FormDemo8 } from './components/form/FormDemo8';
 import { FormDemo9 } from './components/form/FormDemo9';
 import { FormDemo10 } from './components/form/FormDemo10';
 import { FormDemo11 } from './components/form/FormDemo11';
+import { ApiDemo1 } from './components/api/ApiDemo1';
+import { ApiDemo2 } from './components/api/ApiDemo2';
+import { ApiDemo3 } from './components/api/ApiDemo3';
 //import './App.css'
 
 function App() {
@@ -83,6 +86,9 @@ function App() {
         <Route path="/formdemo9" element={<FormDemo9/>}></Route>
         <Route path="/formdemo10" element={<FormDemo10/>}></Route>
         <Route path="/formdemo11" element={<FormDemo11/>}></Route>
+        <Route path="/apidemo1" element={<ApiDemo1/>}></Route>
+        <Route path="/apidemo2" element={<ApiDemo2/>}></Route>
+        <Route path="/apidemo3" element={<ApiDemo3/>}></Route>
         <Route path="/students" element={<Students/>}></Route>
         <Route path="/*" element={<ErrorNotFound/>}></Route>
       </Routes>
