@@ -167,6 +167,21 @@ export const Navbar = () => {
                 ApiDemo3
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/apidemo4">
+                ApiDemo4
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/apidemo5">
+                ApiDemo5
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/omdbsearch">
+                OMDB Search
+              </Link>
+            </li>
             {/* <li className="nav-item">
               <Link className="nav-link" to="/students">
                 Students
